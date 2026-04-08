@@ -1,89 +1,100 @@
-# 🚀 Scalable Django Backend System
+<h1 align="center">🚀 Scalable Django Backend System</h1>
 
-> Production-ready backend built with Django & DRF, designed for high-performance APIs, secure integrations, and scalable architecture.
+<p align="center">
+Production-ready backend architecture built with Django & DRF  
+<br/>
+Designed for scalability, security, and real-world systems
+</p>
 
----
-
-## 📌 Overview
-
-This project is a **real-world backend system** built using modern engineering practices.  
-It focuses on **scalability, maintainability, and clean architecture**, making it suitable for enterprise-level applications.
-
-The system includes:
-
-- API-first design using Django REST Framework
-- Service-to-service secure communication (HMAC)
-- Background processing with Celery
-- Modular and extensible architecture
-- Real business workflows (delegation, payments, integrations)
+<p align="center">
+  <img src="https://img.shields.io/badge/Django-5.x-green?style=for-the-badge&logo=django" />
+  <img src="https://img.shields.io/badge/DRF-API-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Celery-Async-yellow?style=for-the-badge&logo=celery" />
+  <img src="https://img.shields.io/badge/Redis-Cache-red?style=for-the-badge&logo=redis" />
+  <img src="https://img.shields.io/badge/Docker-Ready-blue?style=for-the-badge&logo=docker" />
+</p>
 
 ---
 
-## 🧠 Key Features
+## 🧠 About The Project
 
-- 🔐 Authentication & Authorization (JWT + HMAC)
-- ⚡ High-performance REST APIs
-- 🔄 Asynchronous task processing (Celery + Redis)
-- 📦 Modular Django apps architecture
-- 📊 Admin dashboard for data management
-- 🌍 Internationalization (i18n support)
-- 📁 File upload & media handling
-- 📡 External API integrations
-- 🧾 Flexible Payment system (GenericForeignKey design)
-- 📨 WhatsApp messaging integration
+This project represents a **real-world backend system** built with a **production mindset**.
+
+It is not just CRUD — it demonstrates:
+
+- Scalable system design
+- Secure service-to-service communication
+- Modular architecture
+- Background processing
+- Real business logic implementation
 
 ---
 
-## 🏗️ Architecture
+## ✨ Core Features
+
+✔ JWT Authentication (users)  
+✔ HMAC Authentication (services)  
+✔ High-performance REST APIs  
+✔ Async processing with Celery + Redis  
+✔ Modular Django apps architecture  
+✔ Payment system using GenericForeignKey  
+✔ External API integrations  
+✔ WhatsApp messaging integration  
+✔ Admin dashboards & data control  
+✔ Internationalization (i18n ready)
+
+---
+
+## 🏗️ System Architecture
 
 ```
 Client
    ↓
-API Layer (DRF Views)
+API Layer (DRF)
    ↓
 Service Layer (Business Logic)
    ↓
-Domain Models (Django ORM)
+Domain Models
    ↓
 Database
 ```
 
-### Design Principles
+### Architecture Highlights
 
-- Clean separation of concerns
-- Reusable service layer
-- Config-driven behavior
-- Idempotent operations
-- Scalable async processing
-- Secure-by-default architecture
+- Clean architecture separation  
+- Service layer abstraction  
+- Idempotent operations  
+- Async task offloading  
+- Production-ready design  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Backend:** Python, Django, Django REST Framework  
-- **Async:** Celery, Redis  
-- **Authentication:** JWT (SimpleJWT), HMAC service auth  
-- **API Docs:** drf-spectacular (Swagger / OpenAPI)  
-- **Database:** PostgreSQL (prod), SQLite (dev)  
-- **Deployment:** Docker, Docker Swarm  
-- **Server:** ASGI (Daphne / Gunicorn)  
-- **Messaging:** UltraMsg (WhatsApp API)
+| Layer        | Technology |
+|-------------|-----------|
+| Backend     | Django, DRF |
+| Async       | Celery, Redis |
+| Auth        | JWT, HMAC |
+| Docs        | drf-spectacular |
+| DB          | PostgreSQL / SQLite |
+| Deployment  | Docker, Docker Swarm |
+| Server      | Daphne / Gunicorn |
 
 ---
 
 ## 🔐 Security
 
-- HMAC-based service authentication
-- JWT-based user authentication
-- Rate limiting for APIs
-- Strong input validation via serializers
-- Environment-based secret management
-- Protection against common API vulnerabilities
+- HMAC-based service authentication  
+- JWT token authentication  
+- Input validation & serializers  
+- Rate limiting ready  
+- Environment-based secrets  
+- Secure API design  
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Setup & Installation
 
 ```bash
 git clone https://github.com/your-username/scalable-django-backend.git
@@ -97,33 +108,31 @@ pip install -r requirements.txt
 
 ---
 
-## 🔧 Configuration
-
-Create environment variables:
+## 🔧 Environment Configuration
 
 ```env
-SECRET_KEY=your_secret_key
+SECRET_KEY=
 DEBUG=True
 
-DATABASE_URL=your_db_url
-REDIS_URL=redis://localhost:6379
+DATABASE_URL=
+REDIS_URL=
 
-JWT_SECRET=your_jwt_secret
+JWT_SECRET=
 
-SERVICE_KEY_ID=your_service_key
-SERVICE_KEY_SECRET=your_service_secret
+SERVICE_KEY_ID=
+SERVICE_KEY_SECRET=
 ```
 
 ---
 
-## 🚀 Running the Project
+## 🚀 Run Locally
 
 ```bash
 python manage.py migrate
 python manage.py runserver
 ```
 
-### Run Celery Worker
+### Run Worker
 
 ```bash
 celery -A config worker -l info
@@ -131,45 +140,19 @@ celery -A config worker -l info
 
 ---
 
-## 🧪 Testing
-
-```bash
-python manage.py test
-```
-
-Optional load testing:
-
-- Locust
-- k6
-
----
-
 ## 📡 API Documentation
 
-Swagger UI:
-
-```
-/swagger/
-```
-
-OpenAPI Schema:
-
-```
-/schema/
-```
+- Swagger: `/swagger/`
+- Schema: `/schema/`
 
 ---
 
-## 🔄 Service-to-Service Authentication Example
-
-### Signature Generation
+## 🔄 Service Authentication Example
 
 ```python
 message = f"{method}:{path}:{timestamp}"
 signature = HMAC_SHA256(secret, message)
 ```
-
-### Headers
 
 ```
 Authorization: Bearer {key_id}:{signature}
@@ -195,39 +178,23 @@ config/
 
 ---
 
+## 📈 Performance Strategy
+
+- Optimized ORM queries  
+- Async processing for heavy operations  
+- Pagination & filtering  
+- Indexed database fields  
+- Scalable architecture  
+
+---
+
 ## 🧩 Use Cases
 
-- ERP systems
-- Government platforms
-- Booking & delegation systems
-- Payment processing systems
-- Multi-service backend architecture
-
----
-
-## 📈 Performance Considerations
-
-- Optimized queries using `select_related` & `prefetch_related`
-- Background jobs for heavy operations
-- Pagination & filtering
-- Indexed database fields
-- Scalable architecture ready for caching
-
----
-
-## 🤝 Contribution
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
-
----
-
-## 📄 License
-
-MIT License
+- ERP Systems  
+- Government Platforms  
+- Booking Systems  
+- Payment Systems  
+- Multi-service architectures  
 
 ---
 
@@ -238,17 +205,17 @@ Backend Developer | Django | Scalable Systems
 
 ---
 
-## ⭐ Why This Project Matters
+## ⭐ Why This Repo Stands Out
 
-This project demonstrates:
+This project showcases:
 
-- Real-world backend engineering experience
-- Scalable system design
-- Secure API architecture
-- Production-ready implementation practices
+- Production-level backend thinking  
+- Clean and scalable architecture  
+- Secure API design  
+- Real-world system implementation  
 
 ---
 
-## 🔥 Notes
-
-This repository is part of my professional portfolio and reflects my approach to building scalable backend systems.
+<p align="center">
+  ⭐ If you find this project useful, consider starring it
+</p>

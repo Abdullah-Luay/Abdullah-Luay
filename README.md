@@ -1,4 +1,6 @@
-<h1 align="center">🚀 Scalable Django Backend System</h1>
+<h1 align="center">🚀 **Abdullah Al-Ubaidy**  </h1>
+<h1 align="center">🚀 Backend Developer | Django | Scalable Systems  </h1>
+
 
 <p align="center">
 Production-ready backend architecture built with Django & DRF  
@@ -94,90 +96,6 @@ Database
 
 ---
 
-## ⚙️ Setup & Installation
-
-```bash
-git clone https://github.com/your-username/scalable-django-backend.git
-cd scalable-django-backend
-
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
-
-pip install -r requirements.txt
-```
-
----
-
-## 🔧 Environment Configuration
-
-```env
-SECRET_KEY=
-DEBUG=True
-
-DATABASE_URL=
-REDIS_URL=
-
-JWT_SECRET=
-
-SERVICE_KEY_ID=
-SERVICE_KEY_SECRET=
-```
-
----
-
-## 🚀 Run Locally
-
-```bash
-python manage.py migrate
-python manage.py runserver
-```
-
-### Run Worker
-
-```bash
-celery -A config worker -l info
-```
-
----
-
-## 📡 API Documentation
-
-- Swagger: `/swagger/`
-- Schema: `/schema/`
-
----
-
-## 🔄 Service Authentication Example
-
-```python
-message = f"{method}:{path}:{timestamp}"
-signature = HMAC_SHA256(secret, message)
-```
-
-```
-Authorization: Bearer {key_id}:{signature}
-X-Timestamp: {timestamp}
-```
-
----
-
-## 📦 Project Structure
-
-```
-apps/
- ├── users/
- ├── services/
- ├── payments/
- ├── facilities/
- ├── web_data/
-
-config/
- ├── settings/
- ├── urls.py
-```
-
----
-
 ## 📈 Performance Strategy
 
 - Optimized ORM queries  
@@ -195,13 +113,6 @@ config/
 - Booking Systems  
 - Payment Systems  
 - Multi-service architectures  
-
----
-
-## 👨‍💻 Author
-
-**Abdullah Al-Ubaidy**  
-Backend Developer | Django | Scalable Systems  
 
 ---
 

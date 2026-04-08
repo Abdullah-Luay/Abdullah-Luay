@@ -1,132 +1,178 @@
-<h1 align="center">🚀 Abdullah Al-Ubaidy </h1>
-<h1 align="center">🚀 Backend Developer | Django | Scalable Systems  </h1>
-
+<h1 align="center">🚀 Hi, I'm Abdullah Al-Ubaidy</h1>
 
 <p align="center">
-Production-ready backend architecture built with Django & DRF  
-<br/>
-Designed for scalability, security, and real-world systems
+Backend Developer | Django | Scalable Systems
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Django-5.x-green?style=for-the-badge&logo=django" />
-  <img src="https://img.shields.io/badge/DRF-API-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Celery-Async-yellow?style=for-the-badge&logo=celery" />
-  <img src="https://img.shields.io/badge/Redis-Cache-red?style=for-the-badge&logo=redis" />
-  <img src="https://img.shields.io/badge/Docker-Ready-blue?style=for-the-badge&logo=docker" />
+  <img src="https://img.shields.io/badge/EXPERIENCE-Production--Ready-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/SPECIALITY-Backend%20Engineering-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/FOCUS-Scalable%20Systems-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/PROJECTS-Real%20World-red?style=for-the-badge"/>
 </p>
 
 ---
 
-## 🧠 About The Project
+## 🧠 Professional Summary
 
-This project represents a **real-world backend system** built with a **production mindset**.
+I don’t just build APIs — I design **scalable backend systems**.
 
-It is not just CRUD — it demonstrates:
+With hands-on experience in **Django, distributed services, and real-world business logic**,  
+I focus on building systems that are:
 
-- Scalable system design
-- Secure service-to-service communication
-- Modular architecture
-- Background processing
-- Real business logic implementation
+- Scalable under load  
+- Secure by design  
+- Clean and maintainable  
+- Ready for production environments  
 
----
+I work with complex domains like:
 
-## ✨ Core Features
-
-✔ JWT Authentication (users)  
-✔ HMAC Authentication (services)  
-✔ High-performance REST APIs  
-✔ Async processing with Celery + Redis  
-✔ Modular Django apps architecture  
-✔ Payment system using GenericForeignKey  
-✔ External API integrations  
-✔ WhatsApp messaging integration  
-✔ Admin dashboards & data control  
-✔ Internationalization (i18n ready)
+- Delegation systems  
+- Payment architectures  
+- External service integrations  
+- Admin-heavy platforms  
 
 ---
 
-## 🏗️ System Architecture
+## ⚙️ The Backend Arsenal
+
+### 🧩 Frameworks & Core
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,django,postgres,redis,docker" />
+</p>
+
+---
+
+### 🔐 Authentication & Security
+
+<p>
+JWT • HMAC • API Security • Rate Limiting • Service Authentication
+</p>
+
+---
+
+### ⚡ Async & Performance
+
+<p>
+Celery • Redis • Background Jobs • Task Queues • Optimization
+</p>
+
+---
+
+### 🧠 Architecture & Design
+
+<p>
+Clean Architecture • Service Layer • Modular Apps • Generic Relations • Scalable APIs
+</p>
+
+---
+
+### 📡 Integrations
+
+<p>
+REST APIs • External Services • WhatsApp API • Payment Gateways
+</p>
+
+---
+
+## 🏗️ System Thinking
 
 ```
 Client
    ↓
 API Layer (DRF)
    ↓
-Service Layer (Business Logic)
+Service Layer
    ↓
-Domain Models
+Domain Logic
    ↓
 Database
+   ↓
+External Services
 ```
 
-### Architecture Highlights
+✔ Separation of concerns  
+✔ Idempotent operations  
+✔ Async processing  
+✔ Production-first design  
 
-- Clean architecture separation  
-- Service layer abstraction  
-- Idempotent operations  
-- Async task offloading  
-- Production-ready design  
+---
+
+## 🚀 Highlight Projects
+
+### 🔹 Scalable Django Backend System
+- Service-to-service HMAC authentication  
+- Payment system with GenericForeignKey  
+- Async WhatsApp messaging  
+- External API integrations  
+- Admin-heavy workflows  
+
+---
+
+### 🔹 Delegation & Booking Platform
+- Complex validation logic  
+- Multi-destination workflows  
+- File handling & approvals  
+- Role-based access control  
+
+---
+
+### 🔹 Facility Sync System
+- External system synchronization  
+- Metadata sync with Celery  
+- Fault-tolerant service communication  
+
+---
+
+## 📈 Engineering Strengths
+
+✔ API Design (DRF)  
+✔ Database Optimization  
+✔ Background Processing  
+✔ System Integration  
+✔ Production Deployment  
+✔ Debugging Complex Systems  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer        | Technology |
-|-------------|-----------|
-| Backend     | Django, DRF |
-| Async       | Celery, Redis |
-| Auth        | JWT, HMAC |
-| Docs        | drf-spectacular |
-| DB          | PostgreSQL / SQLite |
-| Deployment  | Docker, Docker Swarm |
-| Server      | Daphne / Gunicorn |
+| Category | Tools |
+|--------|------|
+| Backend | Django, DRF |
+| Async | Celery, Redis |
+| DB | PostgreSQL |
+| Auth | JWT, HMAC |
+| Docs | drf-spectacular |
+| Infra | Docker, Swarm |
+| Server | Daphne |
 
 ---
 
-## 🔐 Security
+## 🎓 Education
 
-- HMAC-based service authentication  
-- JWT token authentication  
-- Input validation & serializers  
-- Rate limiting ready  
-- Environment-based secrets  
-- Secure API design  
+🎓 Computer Engineering  
+University of Technology, Iraq  
 
 ---
 
-## 📈 Performance Strategy
+## 🤝 Connect With Me
 
-- Optimized ORM queries  
-- Async processing for heavy operations  
-- Pagination & filtering  
-- Indexed database fields  
-- Scalable architecture  
-
----
-
-## 🧩 Use Cases
-
-- ERP Systems  
-- Government Platforms  
-- Booking Systems  
-- Payment Systems  
-- Multi-service architectures  
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/WhatsApp-green?style=for-the-badge&logo=whatsapp"/></a>
+</p>
 
 ---
 
-## ⭐ Why This Repo Stands Out
+## ⭐ Philosophy
 
-This project showcases:
-
-- Production-level backend thinking  
-- Clean and scalable architecture  
-- Secure API design  
-- Real-world system implementation  
+> “Build systems that scale, not just code that works.”
 
 ---
 
 <p align="center">
-  ⭐ If you find this project useful, consider starring it
+🔥 Always building. Always optimizing.
 </p>

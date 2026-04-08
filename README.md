@@ -1,4 +1,4 @@
-<h1 align="center">🚀 **Abdullah Al-Ubaidy**  </h1>
+<h1 align="center">🚀 Abdullah Al-Ubaidy </h1>
 <h1 align="center">🚀 Backend Developer | Django | Scalable Systems  </h1>
 
 

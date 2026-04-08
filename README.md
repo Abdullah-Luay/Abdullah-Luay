@@ -160,9 +160,15 @@ University of Technology, Iraq
 ## 🤝 Connect With Me
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/WhatsApp-green?style=for-the-badge&logo=whatsapp"/></a>
+  <a href="https://www.linkedin.com/in/abdullah-al-ubaidy-116126334/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="mailto:alo959573@gmail.com">
+    <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail"/>
+  </a>
+  <a href="https://wa.me/9647822665533">
+    <img src="https://img.shields.io/badge/WhatsApp-green?style=for-the-badge&logo=whatsapp"/>
+  </a>
 </p>
 
 ---

@@ -153,7 +153,7 @@ External Services
 ## 🎓 Education
 
 🎓 Computer Engineering  
-University of Technology, Iraq  
+EETC , Iraq  
 
 ---
 
